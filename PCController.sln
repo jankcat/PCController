@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCController.Library", "PCController.Library\PCController.Library.csproj", "{A8E4C814-ABAB-4432-98F4-26D3EA63CC5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{943B25C9-E41B-4C65-8127-7C9485747CAB}"
+	ProjectSection(SolutionItems) = preProject
+		Attributions.md = Attributions.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solid.Arduino", "Solid.Arduino", "{4B2E8AFA-3668-46F3-9A37-07EABFA04954}"
+	ProjectSection(SolutionItems) = preProject
+		Solid.Arduino\Solid.Arduino.dll = Solid.Arduino\Solid.Arduino.dll
+		Solid.Arduino\Solid.Arduino.pdb = Solid.Arduino\Solid.Arduino.pdb
+		Solid.Arduino\Solid.Arduino.XML = Solid.Arduino\Solid.Arduino.XML
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCController.TestApp", "PCController.TestApp\PCController.TestApp.csproj", "{6C24A7DC-9DAE-4A9D-97A5-ED4E55471CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCController.DesktopApp", "PCController.DesktopApp\PCController.DesktopApp.csproj", "{8B9185F1-3ECA-4628-A986-4C9CF8FBECAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E4C814-ABAB-4432-98F4-26D3EA63CC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E4C814-ABAB-4432-98F4-26D3EA63CC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E4C814-ABAB-4432-98F4-26D3EA63CC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E4C814-ABAB-4432-98F4-26D3EA63CC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C24A7DC-9DAE-4A9D-97A5-ED4E55471CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C24A7DC-9DAE-4A9D-97A5-ED4E55471CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C24A7DC-9DAE-4A9D-97A5-ED4E55471CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C24A7DC-9DAE-4A9D-97A5-ED4E55471CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9185F1-3ECA-4628-A986-4C9CF8FBECAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9185F1-3ECA-4628-A986-4C9CF8FBECAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9185F1-3ECA-4628-A986-4C9CF8FBECAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9185F1-3ECA-4628-A986-4C9CF8FBECAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B2E8AFA-3668-46F3-9A37-07EABFA04954} = {943B25C9-E41B-4C65-8127-7C9485747CAB}
+	EndGlobalSection
+EndGlobal
