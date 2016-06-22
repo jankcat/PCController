@@ -50,7 +50,7 @@ namespace PCController.DesktopApp
         {
             try
             {
-                cmiPCLEDs.Checked = _a1.PCCaseLEDs.GetValue();
+                cmiPCLEDs.Checked = !_a1.PCCaseLEDs.GetValue();
                 monitorLEDsToolStripMenuItem.Checked = _a1.MonitorLEDs.GetValue();
             }
             catch { }
@@ -69,7 +69,7 @@ namespace PCController.DesktopApp
         {
             try
             {
-                _a1.PCCaseLEDs.SetValue(cmiPCLEDs.Checked);
+                _a1.PCCaseLEDs.SetValue(!cmiPCLEDs.Checked);
             }
             catch { }
         }
